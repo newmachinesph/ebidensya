@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+/*
+  Ebidensya design tokens.
+
+  Accent lock: cobalt is the ONE accent colour across marketing and app.
+  The green / amber / red tokens are NOT accents. They carry a single
+  semantic scale (OCR and fact confidence) and appear only where that
+  state is real.
+
+  Radius rule: surfaces 12px, controls 8px, status chips full pill.
+*/
+
+:root {
+  color-scheme: light;
+
+  --c-canvas: oklch(98.2% 0.002 265);
+  --c-surface: oklch(100% 0 0);
+  --c-surface-2: oklch(96.4% 0.003 265);
+  --c-surface-3: oklch(93.6% 0.004 265);
+  --c-line: oklch(90.5% 0.005 265);
+  --c-line-strong: oklch(83% 0.008 265);
+
+  --c-ink: oklch(21% 0.012 265);
+  --c-ink-2: oklch(43% 0.011 265);
+  --c-ink-3: oklch(55% 0.010 265);
+
+  --c-accent: oklch(50% 0.178 264);
+  --c-accent-hover: oklch(44% 0.178 264);
+  --c-accent-ink: oklch(100% 0 0);
+  --c-accent-soft: oklch(95.5% 0.028 264);
+  --c-accent-line: oklch(84% 0.075 264);
+
+  --c-verified: oklch(48% 0.115 158);
+  --c-verified-soft: oklch(95.5% 0.036 158);
+  --c-review: oklch(52% 0.125 74);
+  --c-review-soft: oklch(96% 0.055 84);
+  --c-risk: oklch(50% 0.185 26);
+  --c-risk-soft: oklch(95.5% 0.035 26);
+
+  --shadow-raise: 0 1px 2px oklch(21% 0.012 265 / 0.06),
+    0 8px 24px -12px oklch(21% 0.012 265 / 0.18);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --c-canvas: oklch(16.5% 0.008 265);
+    --c-surface: oklch(20.2% 0.009 265);
+    --c-surface-2: oklch(23.5% 0.010 265);
+    --c-surface-3: oklch(27.5% 0.011 265);
+    --c-line: oklch(30% 0.012 265);
+    --c-line-strong: oklch(38% 0.014 265);
+
+    --c-ink: oklch(94% 0.004 265);
+    --c-ink-2: oklch(76% 0.008 265);
+    --c-ink-3: oklch(64% 0.010 265);
+
+    --c-accent: oklch(72% 0.135 264);
+    --c-accent-hover: oklch(80% 0.120 264);
+    --c-accent-ink: oklch(17% 0.030 264);
+    --c-accent-soft: oklch(28% 0.055 264);
+    --c-accent-line: oklch(40% 0.090 264);
+
+    --c-verified: oklch(76% 0.125 158);
+    --c-verified-soft: oklch(28% 0.045 158);
+    --c-review: oklch(81% 0.130 82);
+    --c-review-soft: oklch(30% 0.050 74);
+    --c-risk: oklch(72% 0.155 26);
+    --c-risk-soft: oklch(29% 0.055 26);
+
+    --shadow-raise: 0 1px 2px oklch(0% 0 0 / 0.4), 0 8px 24px -12px oklch(0% 0 0 / 0.6);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --c-canvas: oklch(16.5% 0.008 265);
+  --c-surface: oklch(20.2% 0.009 265);
+  --c-surface-2: oklch(23.5% 0.010 265);
+  --c-surface-3: oklch(27.5% 0.011 265);
+  --c-line: oklch(30% 0.012 265);
+  --c-line-strong: oklch(38% 0.014 265);
+
+  --c-ink: oklch(94% 0.004 265);
+  --c-ink-2: oklch(76% 0.008 265);
+  --c-ink-3: oklch(64% 0.010 265);
+
+  --c-accent: oklch(72% 0.135 264);
+  --c-accent-hover: oklch(80% 0.120 264);
+  --c-accent-ink: oklch(17% 0.030 264);
+  --c-accent-soft: oklch(28% 0.055 264);
+  --c-accent-line: oklch(40% 0.090 264);
+
+  --c-verified: oklch(76% 0.125 158);
+  --c-verified-soft: oklch(28% 0.045 158);
+  --c-review: oklch(81% 0.130 82);
+  --c-review-soft: oklch(30% 0.050 74);
+  --c-risk: oklch(72% 0.155 26);
+  --c-risk-soft: oklch(29% 0.055 26);
+
+  --shadow-raise: 0 1px 2px oklch(0% 0 0 / 0.4), 0 8px 24px -12px oklch(0% 0 0 / 0.6);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", monospace;
+
+  --color-canvas: var(--c-canvas);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-surface-3: var(--c-surface-3);
+  --color-line: var(--c-line);
+  --color-line-strong: var(--c-line-strong);
+
+  --color-ink: var(--c-ink);
+  --color-ink-2: var(--c-ink-2);
+  --color-ink-3: var(--c-ink-3);
+
+  --color-accent: var(--c-accent);
+  --color-accent-hover: var(--c-accent-hover);
+  --color-accent-ink: var(--c-accent-ink);
+  --color-accent-soft: var(--c-accent-soft);
+  --color-accent-line: var(--c-accent-line);
+
+  --color-verified: var(--c-verified);
+  --color-verified-soft: var(--c-verified-soft);
+  --color-review: var(--c-review);
+  --color-review-soft: var(--c-review-soft);
+  --color-risk: var(--c-risk);
+  --color-risk-soft: var(--c-risk-soft);
+
+  --radius-surface: 12px;
+  --radius-control: 8px;
+}
+
+@layer base {
+  * {
+    border-color: var(--c-line);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--c-canvas);
+    color: var(--c-ink);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background: var(--c-accent-soft);
+    color: var(--c-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--c-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  summary {
+    cursor: pointer;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@utility shell {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1240px;
+  padding-inline: 1rem;
+
+  @media (min-width: 768px) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility shell-wide {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1560px;
+  padding-inline: 1rem;
+
+  @media (min-width: 768px) {
+    padding-inline: 1.75rem;
+  }
+}
+
+/*
+  Deliberately unlayered: iOS Safari zooms the whole page when a focused
+  control renders under 16px, and a Tailwind utility class would win over
+  anything placed in @layer base. Mobile widths only.
+*/
+@media (max-width: 639px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* ponytail: one util instead of repeating the scrollbar reset per strip. */
+@utility scroll-x {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

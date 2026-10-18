@@ -1,0 +1,227 @@
+{
+  "summary": {
+    "id": "buhay-vs-tanchingco",
+    "title": "Buhay Hardware Supply vs. Tanchingco",
+    "docket": "Civil Case No. R-MKT-26-01147-CV",
+    "causeOfAction": "Collection of sum of money with damages",
+    "court": "RTC Makati City, Branch 62",
+    "clientRole": "Plaintiff",
+    "client": "Buhay Hardware Supply, Inc.",
+    "adverse": "Rafael D. Tanchingco",
+    "lead": "Atty. Marisol Bantayan",
+    "status": "drafting",
+    "openedOn": "2026-05-11",
+    "nextHearing": "2026-09-15",
+    "amountInvolved": 1875400,
+    "fileCount": 63,
+    "needsReviewCount": 9,
+    "readiness": 54
+  },
+  "evidence": [
+    {
+      "id": "ev-01",
+      "filename": "Supply Agreement 2025 - executed.pdf",
+      "kind": "contract",
+      "source": "Flatbed scan, 300 dpi",
+      "capturedOn": "2025-07-01",
+      "uploadedOn": "2026-05-11",
+      "exhibit": "A",
+      "pages": 9,
+      "sizeKb": 3240,
+      "ocr": {
+        "status": "verified",
+        "confidence": 97,
+        "defects": [],
+        "note": null,
+        "text": "SUPPLY AGREEMENT\n\nExecuted 1 July 2025 between BUHAY HARDWARE SUPPLY, INC. (Supplier) and TANCHINGCO BUILDERS (Buyer).\n\n4.1 Payment shall be due thirty (30) days from delivery.\n4.3 Unpaid invoices shall bear interest of one and one half percent (1.5%) per month.\n9.2 Venue for any action is laid exclusively in the courts of Makati City.",
+        "fields": [
+          { "label": "Date executed", "value": "1 July 2025", "confidence": 98 },
+          { "label": "Payment term", "value": "30 days from delivery", "confidence": 97 },
+          { "label": "Venue clause", "value": "Makati City, exclusive", "confidence": 96 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["contract", "venue"]
+    },
+    {
+      "id": "ev-02",
+      "filename": "Statement of account - Apr2026.xlsx.pdf",
+      "kind": "financial",
+      "source": "Accounting export",
+      "capturedOn": "2026-04-30",
+      "uploadedOn": "2026-05-11",
+      "exhibit": "B",
+      "pages": 4,
+      "sizeKb": 410,
+      "ocr": {
+        "status": "verified",
+        "confidence": 95,
+        "defects": [],
+        "note": null,
+        "text": "STATEMENT OF ACCOUNT as of 30 April 2026\nTANCHINGCO BUILDERS\n\nInvoice 2025-0912  PHP 612,300.00  overdue 191 days\nInvoice 2025-1044  PHP 488,750.00  overdue 154 days\nInvoice 2026-0117  PHP 774,350.00  overdue 88 days\nTOTAL PRINCIPAL PHP 1,875,400.00",
+        "fields": [
+          { "label": "Total principal", "value": "PHP 1,875,400.00", "confidence": 98 },
+          { "label": "Invoices covered", "value": "3", "confidence": 99 },
+          { "label": "Oldest invoice", "value": "2025-0912", "confidence": 96 }
+        ]
+      },
+      "corroborates": ["ev-03"],
+      "tags": ["soa", "principal"]
+    },
+    {
+      "id": "ev-03",
+      "filename": "Delivery receipts batch 2025-0912.pdf",
+      "kind": "receipt",
+      "source": "Warehouse copies, scanned",
+      "capturedOn": "2025-10-14",
+      "uploadedOn": "2026-05-12",
+      "exhibit": "C",
+      "pages": 11,
+      "sizeKb": 5120,
+      "ocr": {
+        "status": "review",
+        "confidence": 76,
+        "defects": ["Carbon copy, low contrast", "Two pages skewed by about 7 degrees"],
+        "note": "Receiving signatures on pages 4 and 9 are too faint to attribute. The rest of the batch reads cleanly.",
+        "text": "DELIVERY RECEIPT No. 21883\nDelivered to: TANCHINGCO BUILDERS, Bagumbayan site\nReceived by: [faint]\nDate: 14 OCT 2025",
+        "fields": [
+          { "label": "Receipts in batch", "value": "11", "confidence": 94 },
+          { "label": "Unreadable signatures", "value": "2 of 11", "confidence": 82 },
+          { "label": "Delivery site", "value": "Bagumbayan, Taguig", "confidence": 88 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["delivery", "partial-read"]
+    },
+    {
+      "id": "ev-04",
+      "filename": "Viber - Tanchingco - 12Mar2026.png",
+      "kind": "chat",
+      "source": "Viber screenshot",
+      "capturedOn": "2026-03-12",
+      "uploadedOn": "2026-05-12",
+      "exhibit": "D",
+      "pages": 1,
+      "sizeKb": 320,
+      "ocr": {
+        "status": "verified",
+        "confidence": 93,
+        "defects": [],
+        "note": null,
+        "text": "Rafael Tanchingco\nBoss, alam ko po may balance pa kami. Hintayin lang po natin ang release ng progress billing sa DPWH.\n\nJoselito Buhay\nRafael, 1.8M na po yan. Kailangan na namin.\n\nRafael Tanchingco\nOpo. Bayaran namin lahat pagka-release.",
+        "fields": [
+          { "label": "Acknowledged balance", "value": "Yes, amount not stated by respondent", "confidence": 90 },
+          { "label": "Thread date", "value": "12 March 2026", "confidence": 95 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["admission", "viber"]
+    },
+    {
+      "id": "ev-05",
+      "filename": "Demand letter 20Apr2026 - signed copy.jpg",
+      "kind": "official",
+      "source": "Phone camera",
+      "capturedOn": "2026-04-20",
+      "uploadedOn": "2026-05-13",
+      "exhibit": "E",
+      "pages": 1,
+      "sizeKb": 1760,
+      "photoSeed": "demand-letter-desk-photo",
+      "ocr": {
+        "status": "review",
+        "confidence": 69,
+        "defects": ["Shadow across the lower half", "Photographed at an angle"],
+        "note": "The received stamp date is legible but the name of the receiving employee is not.",
+        "text": "20 April 2026\nRE: FINAL DEMAND\nTotal due PHP 1,875,400.00 plus interest\n[RECEIVED stamp] 21 APR 2026 by [unclear]",
+        "fields": [
+          { "label": "Date of letter", "value": "20 April 2026", "confidence": 92 },
+          { "label": "Received stamp date", "value": "21 April 2026", "confidence": 84 },
+          { "label": "Received by", "value": null, "confidence": 31 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["demand", "reshoot"]
+    },
+    {
+      "id": "ev-06",
+      "filename": "Photo - undelivered stock at Bagumbayan.jpg",
+      "kind": "photograph",
+      "source": "Phone camera",
+      "capturedOn": "2026-02-08",
+      "uploadedOn": "2026-05-13",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 2890,
+      "photoSeed": "construction-site-materials-manila",
+      "ocr": {
+        "status": "manual",
+        "confidence": 0,
+        "defects": [],
+        "note": "No text detected. Caption entered by the paralegal on 13 May 2026.",
+        "text": null,
+        "fields": [
+          { "label": "Caption (entered manually)", "value": "Delivered materials still on site, Bagumbayan", "confidence": 100 }
+        ]
+      },
+      "corroborates": ["ev-03"],
+      "tags": ["photo", "manually-captioned"]
+    }
+  ],
+  "timeline": [
+    { "id": "tl-01", "date": "2025-07-01", "title": "Supply agreement executed", "detail": "Thirty day payment term, 1.5% monthly interest on overdue invoices, venue in Makati.", "confidence": 97, "sources": ["ev-01"], "flag": null },
+    { "id": "tl-02", "date": "2025-10-14", "title": "First unpaid batch delivered", "detail": "Eleven delivery receipts covering invoice 2025-0912. Two receiving signatures are unreadable.", "confidence": 76, "sources": ["ev-03"], "flag": "gap" },
+    { "id": "tl-03", "date": "2026-03-12", "title": "Tanchingco acknowledged an outstanding balance on Viber", "detail": "Payment tied to the release of a DPWH progress billing.", "confidence": 93, "sources": ["ev-04"], "flag": null },
+    { "id": "tl-04", "date": "2026-04-20", "title": "Final demand sent", "detail": "PHP 1,875,400.00 plus stipulated interest. Received stamp reads 21 April 2026.", "confidence": 69, "sources": ["ev-05"], "flag": null },
+    { "id": "tl-05", "date": "2026-04-30", "title": "Statement of account closed at PHP 1,875,400.00", "detail": "Three invoices, the oldest overdue by 191 days.", "confidence": 95, "sources": ["ev-02"], "flag": null }
+  ],
+  "chronology": [
+    { "id": "ch-01", "text": "On 1 July 2025, Buhay Hardware Supply, Inc. and Tanchingco Builders executed a Supply Agreement providing for payment within thirty days from delivery and interest of 1.5% per month on overdue invoices.", "citations": ["ev-01"] },
+    { "id": "ch-02", "text": "Between October 2025 and February 2026, plaintiff delivered materials covered by invoices 2025-0912, 2025-1044 and 2026-0117 with an aggregate principal of PHP 1,875,400.00.", "citations": ["ev-02", "ev-03"] },
+    { "id": "ch-03", "text": "On 12 March 2026, defendant acknowledged an outstanding balance in a Viber exchange and undertook to pay upon release of a government progress billing.", "citations": ["ev-04"] },
+    { "id": "ch-04", "text": "Written demand dated 20 April 2026 was received at defendant's office on 21 April 2026. No payment has been received since.", "citations": ["ev-05", "ev-02"] }
+  ],
+  "exhibits": [
+    { "label": "A", "title": "Supply Agreement dated 1 July 2025", "evidenceId": "ev-01", "offeredFor": "The contractual relationship and the interest stipulation" },
+    { "label": "B", "title": "Statement of account as of 30 April 2026", "evidenceId": "ev-02", "offeredFor": "The amount of the principal claim" },
+    { "label": "C", "title": "Delivery receipts, batch for invoice 2025-0912", "evidenceId": "ev-03", "offeredFor": "Delivery and acceptance of the goods" },
+    { "label": "D", "title": "Viber thread dated 12 March 2026", "evidenceId": "ev-04", "offeredFor": "Acknowledgment of the balance" },
+    { "label": "E", "title": "Final demand letter dated 20 April 2026", "evidenceId": "ev-05", "offeredFor": "Demand and default" }
+  ],
+  "witnesses": [
+    { "id": "wt-01", "name": "Joselito P. Buhay", "role": "President, Buhay Hardware Supply", "appearsIn": ["ev-01", "ev-04"], "status": "confirmed", "note": "Will identify the agreement and the Viber exchange." },
+    { "id": "wt-02", "name": "Cristina M. Espeleta", "role": "Credit and collection supervisor", "appearsIn": ["ev-02", "ev-05"], "status": "confirmed", "note": "Custodian of the statement of account and the demand letter." },
+    { "id": "wt-03", "name": "Danilo R. Sabalburo", "role": "Warehouse checker", "appearsIn": ["ev-03"], "status": "to-contact", "note": "Needed for the two delivery receipts with unreadable signatures." },
+    { "id": "wt-04", "name": "Rafael D. Tanchingco", "role": "Defendant", "appearsIn": ["ev-04"], "status": "adverse", "note": "His Viber message is the strongest admission in the file." }
+  ],
+  "contradictions": [
+    { "id": "cx-01", "severity": "low", "claim": "Statement of account lists invoice 2026-0117 as overdue by 88 days as of 30 April 2026.", "against": "Delivery receipts for that invoice are dated 5 February 2026.", "sources": ["ev-02", "ev-03"], "observation": "The overdue count appears to run from delivery rather than from the end of the thirty day term. Confirm the reckoning before the computation is attached to the complaint." }
+  ],
+  "missing": [
+    { "id": "ms-01", "document": "Legible receiving signatures for delivery receipts 21886 and 21891", "why": "Two of eleven receipts in the batch cannot be attributed to any receiving employee.", "blocks": "Delivery and acceptance", "priority": "high", "where": "Warehouse file copies, or ask the checker on duty" },
+    { "id": "ms-02", "document": "Clean copy of the received demand letter", "why": "The photograph on file has a shadow across the receiving stamp.", "blocks": "Demand and default", "priority": "high", "where": "Firm outgoing file" },
+    { "id": "ms-03", "document": "Interest computation as of the intended filing date", "why": "The complaint prays for stipulated interest but no computation is on file.", "blocks": null, "priority": "normal", "where": "Accounting, using clause 4.3" },
+    { "id": "ms-04", "document": "Board resolution or secretary's certificate authorising the suit", "why": "Required for a corporate plaintiff to verify and certify the complaint.", "blocks": null, "priority": "critical", "where": "Corporate secretary of Buhay Hardware Supply" }
+  ],
+  "proofMatrix": {
+    "caseType": "Collection of sum of money based on contract",
+    "basis": "Elements follow the ordinary requisites of an action on a written contract. Confirm against the pleading standard before filing.",
+    "elements": [
+      { "element": "Existence of a valid contract between the parties", "authority": "Civil Code, Articles 1305 and 1318", "evidence": ["ev-01"], "status": "supported", "note": "Signed nine page agreement on file." },
+      { "element": "Performance by plaintiff of its obligations", "authority": "Civil Code, Article 1159", "evidence": ["ev-03", "ev-02"], "status": "partial", "note": "Two of eleven delivery receipts lack an attributable receiving signature." },
+      { "element": "Breach by defendant through non-payment", "authority": "Civil Code, Article 1170", "evidence": ["ev-02", "ev-04"], "status": "supported", "note": "Statement of account plus a written acknowledgment." },
+      { "element": "Demand made and default incurred", "authority": "Civil Code, Article 1169", "evidence": ["ev-05"], "status": "partial", "note": "Receiving stamp is legible, the receiving employee is not." },
+      { "element": "Amount due, including stipulated interest", "authority": "Clause 4.3 of the agreement", "evidence": ["ev-02"], "status": "partial", "note": "Principal is documented. No interest computation has been uploaded." }
+    ]
+  },
+  "claims": [
+    { "claim": "Principal of PHP 1,875,400.00", "supporting": ["Statement of account", "Delivery receipts", "Viber acknowledgment"], "missing": [], "strength": "strong" },
+    { "claim": "Stipulated interest at 1.5% per month", "supporting": ["Clause 4.3 of the supply agreement"], "missing": ["Computation as of filing", "Proof of demand for interest"], "strength": "workable" },
+    { "claim": "Attorney's fees and costs", "supporting": ["Clause 4.3", "Demand letter"], "missing": ["Engagement letter", "Billing statements"], "strength": "thin" }
+  ],
+  "binder": [
+    { "witnessId": "wt-01", "purpose": "Identify the agreement and the admission", "questions": ["What is your position at Buhay Hardware Supply?", "I am showing you Exhibit A. Do you recognise this document?", "How were orders from Tanchingco Builders normally placed?", "I am showing you Exhibit D. Who are the persons in this exchange?"], "documents": ["ev-01", "ev-04"] },
+    { "witnessId": "wt-02", "purpose": "Prove the amount claimed and the demand", "questions": ["Who prepares the statement of account in your company?", "I am showing you Exhibit B. How was this prepared?", "What happened after the statement was issued?", "I am showing you Exhibit E. What is this document?"], "documents": ["ev-02", "ev-05"] }
+  ],
+  "hearing": null
+}

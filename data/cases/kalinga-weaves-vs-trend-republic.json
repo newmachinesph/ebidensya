@@ -1,0 +1,225 @@
+{
+  "summary": {
+    "id": "kalinga-weaves-vs-trend-republic",
+    "title": "Kalinga Weaves vs. Trend Republic Manila",
+    "docket": "IPV Case No. R-QZN-26-00218-IP",
+    "causeOfAction": "Copyright infringement and unfair competition",
+    "court": "RTC Quezon City, Branch 24, Special Commercial Court",
+    "clientRole": "Plaintiff",
+    "client": "Kalinga Weaves Cooperative",
+    "adverse": "Trend Republic Manila Trading Corp.",
+    "lead": "Atty. Karlo Divinagracia",
+    "status": "intake",
+    "openedOn": "2026-07-06",
+    "nextHearing": null,
+    "amountInvolved": 2400000,
+    "fileCount": 412,
+    "needsReviewCount": 47,
+    "readiness": 38
+  },
+  "evidence": [
+    {
+      "id": "ev-01",
+      "filename": "Certificate of Copyright Registration.pdf",
+      "kind": "official",
+      "source": "IPOPHL records",
+      "capturedOn": "2023-11-09",
+      "uploadedOn": "2026-07-06",
+      "exhibit": "A",
+      "pages": 2,
+      "sizeKb": 460,
+      "ocr": {
+        "status": "verified",
+        "confidence": 98,
+        "defects": [],
+        "note": null,
+        "text": "INTELLECTUAL PROPERTY OFFICE OF THE PHILIPPINES\nCERTIFICATE OF REGISTRATION AND DEPOSIT\nWork: BINAKUL SERIES, textile design collection, 14 patterns\nAuthor: Kalinga Weaves Cooperative\nRegistration No. A2023-4471\nDate 9 November 2023",
+        "fields": [
+          { "label": "Registration number", "value": "A2023-4471", "confidence": 99 },
+          { "label": "Work registered", "value": "Binakul Series, 14 textile patterns", "confidence": 97 },
+          { "label": "Date of registration", "value": "9 November 2023", "confidence": 99 }
+        ]
+      },
+      "corroborates": [],
+      "tags": ["ipophl", "ownership"]
+    },
+    {
+      "id": "ev-02",
+      "filename": "Shopee listing capture batch 001-118.pdf",
+      "kind": "photograph",
+      "source": "Browser capture, batch export",
+      "capturedOn": "2026-06-18",
+      "uploadedOn": "2026-07-06",
+      "exhibit": "B",
+      "pages": 118,
+      "sizeKb": 41200,
+      "photoSeed": "marketplace-listing-textile-screens",
+      "ocr": {
+        "status": "review",
+        "confidence": 74,
+        "defects": ["Interface text overlaps product images on 23 pages", "Timestamps rendered in a small font"],
+        "note": "Listing titles and prices read reliably. Capture timestamps on 23 of 118 pages are below the threshold at which the app will quote them.",
+        "text": "Trend Republic Manila Official Store\nBinakul Print Wrap Skirt, PHP 749\nSold 1.2k\nCaptured 18 Jun 2026 [timestamp unclear on some pages]",
+        "fields": [
+          { "label": "Pages in batch", "value": "118", "confidence": 99 },
+          { "label": "Pages with unreadable timestamp", "value": "23", "confidence": 88 },
+          { "label": "Seller name", "value": "Trend Republic Manila Official Store", "confidence": 95 }
+        ]
+      },
+      "corroborates": ["ev-03"],
+      "tags": ["marketplace", "bulk", "partial-read"]
+    },
+    {
+      "id": "ev-03",
+      "filename": "Notarised affidavit of the capture technician.pdf",
+      "kind": "affidavit",
+      "source": "Firm file",
+      "capturedOn": "2026-06-25",
+      "uploadedOn": "2026-07-07",
+      "exhibit": "C",
+      "pages": 3,
+      "sizeKb": 540,
+      "ocr": {
+        "status": "verified",
+        "confidence": 96,
+        "defects": [],
+        "note": null,
+        "text": "AFFIDAVIT\n\nI, JOMARI T. LACSON, IT specialist, state that on 18 June 2026 I captured 118 product listings from the Shopee store Trend Republic Manila Official Store using a clean browser profile, and that the captures are faithful reproductions of what was displayed.",
+        "fields": [
+          { "label": "Affiant", "value": "Jomari T. Lacson", "confidence": 98 },
+          { "label": "Date of capture", "value": "18 June 2026", "confidence": 97 },
+          { "label": "Listings captured", "value": "118", "confidence": 96 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["authentication", "e-evidence"]
+    },
+    {
+      "id": "ev-04",
+      "filename": "Photo - counterfeit bolt at Divisoria stall.jpg",
+      "kind": "photograph",
+      "source": "Phone camera",
+      "capturedOn": "2026-06-21",
+      "uploadedOn": "2026-07-07",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 3420,
+      "photoSeed": "textile-market-fabric-bolts-manila",
+      "ocr": {
+        "status": "manual",
+        "confidence": 0,
+        "defects": [],
+        "note": "No text detected. Location and stall number entered manually by the field investigator.",
+        "text": null,
+        "fields": [
+          { "label": "Caption (entered manually)", "value": "Fabric bolts bearing the Binakul pattern, Stall 118-C, Divisoria", "confidence": 100 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["photo", "field", "manually-captioned"]
+    },
+    {
+      "id": "ev-05",
+      "filename": "Cease and desist letter 30Jun2026.pdf",
+      "kind": "official",
+      "source": "Firm outgoing file",
+      "capturedOn": "2026-06-30",
+      "uploadedOn": "2026-07-08",
+      "exhibit": "D",
+      "pages": 3,
+      "sizeKb": 380,
+      "ocr": {
+        "status": "verified",
+        "confidence": 99,
+        "defects": [],
+        "note": null,
+        "text": "30 June 2026\n\nCEASE AND DESIST\n\nYour listings reproduce fourteen registered textile designs covered by Certificate of Registration No. A2023-4471. Demand is made to delist within five (5) days and to render an accounting of sales.",
+        "fields": [
+          { "label": "Date", "value": "30 June 2026", "confidence": 99 },
+          { "label": "Period given", "value": "5 days", "confidence": 98 },
+          { "label": "Designs asserted", "value": "14", "confidence": 97 }
+        ]
+      },
+      "corroborates": ["ev-01"],
+      "tags": ["demand"]
+    },
+    {
+      "id": "ev-06",
+      "filename": "Email - Trend Republic counsel reply.eml",
+      "kind": "email",
+      "source": "Gmail export",
+      "capturedOn": "2026-07-04",
+      "uploadedOn": "2026-07-08",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 48,
+      "ocr": {
+        "status": "verified",
+        "confidence": 99,
+        "defects": [],
+        "note": null,
+        "text": "From: legal@trendrepublic.ph\nDate: Sat, 4 Jul 2026 18:22:40 +0800\nSubject: Re: Cease and desist\n\nOur client sources the fabric from a third party supplier and denies copying. Without admitting liability, the listings have been taken down pending review.",
+        "fields": [
+          { "label": "Position taken", "value": "Denies copying, cites a third party supplier", "confidence": 96 },
+          { "label": "Listings taken down", "value": "Yes, without admission", "confidence": 94 }
+        ]
+      },
+      "corroborates": ["ev-05"],
+      "tags": ["adverse", "email"]
+    }
+  ],
+  "timeline": [
+    { "id": "tl-01", "date": "2023-11-09", "title": "Binakul Series registered with IPOPHL", "detail": "Fourteen textile patterns registered under A2023-4471.", "confidence": 98, "sources": ["ev-01"], "flag": null },
+    { "id": "tl-02", "date": "2026-06-18", "title": "118 marketplace listings captured", "detail": "Captured from the respondent's official store under a clean browser profile.", "confidence": 74, "sources": ["ev-02", "ev-03"], "flag": "gap" },
+    { "id": "tl-03", "date": "2026-06-21", "title": "Physical stock found in Divisoria", "detail": "Fabric bolts bearing the registered pattern photographed at Stall 118-C.", "confidence": 60, "sources": ["ev-04"], "flag": null },
+    { "id": "tl-04", "date": "2026-06-30", "title": "Cease and desist sent", "detail": "Five days to delist and to render an accounting.", "confidence": 99, "sources": ["ev-05"], "flag": null },
+    { "id": "tl-05", "date": "2026-07-04", "title": "Respondent denied copying but delisted", "detail": "Counsel cited a third party supplier and took the listings down without admitting liability.", "confidence": 99, "sources": ["ev-06"], "flag": "contradiction" }
+  ],
+  "chronology": [
+    { "id": "ch-01", "text": "Kalinga Weaves Cooperative is the registered owner of the Binakul Series, a collection of fourteen textile designs registered with the Intellectual Property Office on 9 November 2023 under Certificate No. A2023-4471.", "citations": ["ev-01"] },
+    { "id": "ch-02", "text": "On 18 June 2026, 118 listings offering products bearing the registered designs were captured from the online store of Trend Republic Manila Trading Corp. The captures were made by an IT specialist who executed an affidavit on the manner of capture.", "citations": ["ev-02", "ev-03"] },
+    { "id": "ch-03", "text": "On 30 June 2026, plaintiff demanded that respondent delist the products and render an accounting. On 4 July 2026, respondent denied copying, attributed the fabric to a third party supplier, and delisted without admitting liability.", "citations": ["ev-05", "ev-06"] }
+  ],
+  "exhibits": [
+    { "label": "A", "title": "Certificate of Registration No. A2023-4471", "evidenceId": "ev-01", "offeredFor": "Ownership of the registered designs" },
+    { "label": "B", "title": "Capture batch of 118 marketplace listings", "evidenceId": "ev-02", "offeredFor": "Acts of reproduction and offering for sale" },
+    { "label": "C", "title": "Affidavit of the capture technician", "evidenceId": "ev-03", "offeredFor": "Authentication of the electronic captures" },
+    { "label": "D", "title": "Cease and desist letter dated 30 June 2026", "evidenceId": "ev-05", "offeredFor": "Notice to respondent and its response" }
+  ],
+  "witnesses": [
+    { "id": "wt-01", "name": "Lourdes A. Ganggangan", "role": "Chairperson, Kalinga Weaves Cooperative", "appearsIn": ["ev-01"], "status": "confirmed", "note": "Will testify to authorship and the registration." },
+    { "id": "wt-02", "name": "Jomari T. Lacson", "role": "IT specialist, capture technician", "appearsIn": ["ev-02", "ev-03"], "status": "confirmed", "note": "Needed to authenticate the electronic evidence under the Rules on Electronic Evidence." },
+    { "id": "wt-03", "name": "Aileen P. Marasigan", "role": "Field investigator", "appearsIn": ["ev-04"], "status": "confirmed", "note": "Took the Divisoria photographs and can identify the stall." },
+    { "id": "wt-04", "name": "Trend Republic Manila Trading Corp.", "role": "Respondent", "appearsIn": ["ev-06"], "status": "adverse", "note": "Denies copying while relying on an unnamed supplier." }
+  ],
+  "contradictions": [
+    { "id": "cx-01", "severity": "medium", "claim": "Respondent denies copying and points to a third party supplier.", "against": "The store listings use the phrase Binakul Print in fourteen product titles that match the registered pattern names.", "sources": ["ev-06", "ev-02"], "observation": "A supplier defence does not sit easily with product titles that name the registered series. Worth pinning down in the request for admission." }
+  ],
+  "missing": [
+    { "id": "ms-01", "document": "Legible capture timestamps for 23 listings", "why": "Twenty three pages in the capture batch have timestamps the app could not read with confidence.", "blocks": "Date of the infringing acts", "priority": "high", "where": "Re-export from the capture tool at full resolution" },
+    { "id": "ms-02", "document": "Sales figures or an accounting from the marketplace", "why": "Damages currently rest on the sold count shown on the listing pages.", "blocks": "Amount of damages", "priority": "critical", "where": "Marketplace platform, on court process" },
+    { "id": "ms-03", "document": "Identity of the third party supplier named by respondent", "why": "Respondent relies on a supplier it has not named.", "blocks": null, "priority": "high", "where": "Request for admission or interrogatories" },
+    { "id": "ms-04", "document": "Board resolution authorising the cooperative to sue", "why": "Required for the verification and certification against forum shopping.", "blocks": null, "priority": "critical", "where": "Cooperative secretary" }
+  ],
+  "proofMatrix": {
+    "caseType": "Copyright infringement",
+    "basis": "Elements track ownership plus unauthorised exercise of an exclusive right under the Intellectual Property Code. Confirm the specific rights asserted before filing.",
+    "elements": [
+      { "element": "Ownership of a protected work", "authority": "RA 8293, Sections 172 and 178", "evidence": ["ev-01"], "status": "supported", "note": "Registration certificate on file." },
+      { "element": "Reproduction or distribution by respondent", "authority": "RA 8293, Section 177", "evidence": ["ev-02", "ev-04"], "status": "partial", "note": "Captures are extensive but 23 pages lack a reliable timestamp." },
+      { "element": "Absence of authority or licence", "authority": "RA 8293, Section 216", "evidence": ["ev-05", "ev-06"], "status": "partial", "note": "No licence has ever been issued according to the client. A negative certification from the cooperative would help." },
+      { "element": "Authentication of the electronic evidence", "authority": "Rules on Electronic Evidence, Rule 5", "evidence": ["ev-03"], "status": "supported", "note": "Affidavit of the capture technician on file." },
+      { "element": "Damages or an accounting of profits", "authority": "RA 8293, Section 216.1", "evidence": [], "status": "unsupported", "note": "Nothing on file beyond the sold counters displayed on the listings." }
+    ]
+  },
+  "claims": [
+    { "claim": "Ownership of the Binakul Series", "supporting": ["IPOPHL registration certificate"], "missing": [], "strength": "strong" },
+    { "claim": "Respondent offered infringing goods for sale", "supporting": ["118 listing captures", "Technician affidavit", "Divisoria field photographs"], "missing": ["Timestamps for 23 captures"], "strength": "workable" },
+    { "claim": "Damages of PHP 2,400,000.00", "supporting": ["Sold counters displayed on listings"], "missing": ["Marketplace sales report", "Accounting from respondent", "Proof of the cooperative's own lost sales"], "strength": "thin" }
+  ],
+  "binder": [
+    { "witnessId": "wt-01", "purpose": "Prove authorship and ownership", "questions": ["What is the Binakul Series and how was it developed?", "I am showing you Exhibit A. Do you recognise this certificate?", "Has your cooperative ever licensed these designs to the respondent?"], "documents": ["ev-01"] },
+    { "witnessId": "wt-02", "purpose": "Authenticate the electronic captures", "questions": ["Describe the process you followed on 18 June 2026.", "What browser profile did you use and why?", "I am showing you Exhibit B. Are these the captures you made?", "How were the files stored after capture?"], "documents": ["ev-02", "ev-03"] }
+  ],
+  "hearing": null
+}

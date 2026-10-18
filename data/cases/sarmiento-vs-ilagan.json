@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "id": "sarmiento-vs-ilagan",
+    "title": "Sarmiento vs. Ilagan",
+    "docket": "Civil Case No. R-PSG-26-00934-SC",
+    "causeOfAction": "Unlawful detainer",
+    "court": "MeTC Pasig City, Branch 71",
+    "clientRole": "Plaintiff",
+    "client": "Corazon V. Sarmiento",
+    "adverse": "Noel B. Ilagan",
+    "lead": "Atty. Karlo Divinagracia",
+    "status": "filed",
+    "openedOn": "2026-06-02",
+    "nextHearing": "2026-08-19",
+    "amountInvolved": 396000,
+    "fileCount": 34,
+    "needsReviewCount": 3,
+    "readiness": 71
+  },
+  "evidence": [
+    {
+      "id": "ev-01",
+      "filename": "Contract of Lease - Unit 4C.pdf",
+      "kind": "contract",
+      "source": "Flatbed scan, 300 dpi",
+      "capturedOn": "2024-09-01",
+      "uploadedOn": "2026-06-02",
+      "exhibit": "A",
+      "pages": 6,
+      "sizeKb": 2100,
+      "ocr": {
+        "status": "verified",
+        "confidence": 98,
+        "defects": [],
+        "note": null,
+        "text": "CONTRACT OF LEASE\n\nExecuted 1 September 2024 over Unit 4C, Dona Amparo Building, Kapitolyo, Pasig City.\n\n2. Term: one (1) year, renewable by written agreement.\n3. Monthly rent: PHP 33,000.00 payable on or before the fifth day of each month.\n7. Failure to pay for two consecutive months terminates the lease at the option of the LESSOR.",
+        "fields": [
+          { "label": "Property", "value": "Unit 4C, Dona Amparo Building, Kapitolyo", "confidence": 97 },
+          { "label": "Monthly rent", "value": "PHP 33,000.00", "confidence": 99 },
+          { "label": "Term", "value": "1 year from 1 September 2024", "confidence": 96 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["lease", "signed"]
+    },
+    {
+      "id": "ev-02",
+      "filename": "Rental ledger Sep2024 - May2026.pdf",
+      "kind": "financial",
+      "source": "Owner's ledger, scanned",
+      "capturedOn": "2026-05-31",
+      "uploadedOn": "2026-06-02",
+      "exhibit": "B",
+      "pages": 2,
+      "sizeKb": 380,
+      "ocr": {
+        "status": "verified",
+        "confidence": 94,
+        "defects": [],
+        "note": null,
+        "text": "RENTAL LEDGER, Unit 4C\nLast payment received: 6 June 2025, PHP 33,000.00\nUnpaid months: July 2025 to May 2026, twelve (12) months\nTotal arrears PHP 396,000.00",
+        "fields": [
+          { "label": "Last payment", "value": "6 June 2025", "confidence": 96 },
+          { "label": "Months in arrears", "value": "12", "confidence": 95 },
+          { "label": "Total arrears", "value": "PHP 396,000.00", "confidence": 97 }
+        ]
+      },
+      "corroborates": ["ev-01"],
+      "tags": ["arrears"]
+    },
+    {
+      "id": "ev-03",
+      "filename": "Notice to vacate 15Apr2026.pdf",
+      "kind": "official",
+      "source": "Firm outgoing file",
+      "capturedOn": "2026-04-15",
+      "uploadedOn": "2026-06-02",
+      "exhibit": "C",
+      "pages": 1,
+      "sizeKb": 240,
+      "ocr": {
+        "status": "verified",
+        "confidence": 99,
+        "defects": [],
+        "note": null,
+        "text": "15 April 2026\n\nNOTICE TO PAY AND VACATE\n\nYou are given fifteen (15) days from receipt to pay arrears of PHP 396,000.00 and to vacate Unit 4C, failing which an action for unlawful detainer will be filed.",
+        "fields": [
+          { "label": "Date", "value": "15 April 2026", "confidence": 99 },
+          { "label": "Period given", "value": "15 days from receipt", "confidence": 98 }
+        ]
+      },
+      "corroborates": ["ev-04"],
+      "tags": ["notice"]
+    },
+    {
+      "id": "ev-04",
+      "filename": "Registry receipt and return card.jpg",
+      "kind": "official",
+      "source": "Phone camera",
+      "capturedOn": "2026-04-23",
+      "uploadedOn": "2026-06-03",
+      "exhibit": "D",
+      "pages": 1,
+      "sizeKb": 1240,
+      "photoSeed": "philpost-registry-card-desk",
+      "ocr": {
+        "status": "review",
+        "confidence": 80,
+        "defects": ["Ink faded on the date stamp"],
+        "note": "The signature reads N. Ilagan with reasonable certainty. The delivery date digit is ambiguous between 22 and 23 April.",
+        "text": "REGISTRY RETURN CARD\nArticle No. RR 5527 1180 4 PH\nAddressee NOEL B. ILAGAN\nDelivered 2[2 or 3] APR 2026\nSignature: N. Ilagan",
+        "fields": [
+          { "label": "Signature", "value": "N. Ilagan", "confidence": 86 },
+          { "label": "Date of delivery", "value": null, "confidence": 52 }
+        ]
+      },
+      "corroborates": ["ev-03"],
+      "tags": ["service", "date-ambiguous"]
+    },
+    {
+      "id": "ev-05",
+      "filename": "Barangay certificate to file action.pdf",
+      "kind": "official",
+      "source": "Barangay Kapitolyo",
+      "capturedOn": "2026-05-26",
+      "uploadedOn": "2026-06-03",
+      "exhibit": "E",
+      "pages": 1,
+      "sizeKb": 190,
+      "ocr": {
+        "status": "verified",
+        "confidence": 97,
+        "defects": [],
+        "note": null,
+        "text": "CERTIFICATION TO FILE ACTION\nBarangay Kapitolyo, Pasig City\nThe parties appeared on 12 May 2026 and 19 May 2026. No settlement was reached.",
+        "fields": [
+          { "label": "Date issued", "value": "26 May 2026", "confidence": 98 },
+          { "label": "Mediation dates", "value": "12 and 19 May 2026", "confidence": 96 }
+        ]
+      },
+      "corroborates": [],
+      "tags": ["katarungang-pambarangay"]
+    },
+    {
+      "id": "ev-06",
+      "filename": "Messenger - Ilagan - 02Mar2026.png",
+      "kind": "chat",
+      "source": "Messenger screenshot",
+      "capturedOn": "2026-03-02",
+      "uploadedOn": "2026-06-04",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 268,
+      "ocr": {
+        "status": "verified",
+        "confidence": 92,
+        "defects": [],
+        "note": null,
+        "text": "Noel Ilagan\nMa'am Cora, sorry po sa arrears. Hanggang June po sana kami dito, may hinahanap pa kaming malilipatan.\n\nCorazon Sarmiento\nNoel, one year na hindi kayo nagbabayad.",
+        "fields": [
+          { "label": "Acknowledged arrears", "value": "Yes", "confidence": 93 },
+          { "label": "Thread date", "value": "2 March 2026", "confidence": 94 }
+        ]
+      },
+      "corroborates": ["ev-02"],
+      "tags": ["admission", "messenger"]
+    }
+  ],
+  "timeline": [
+    { "id": "tl-01", "date": "2024-09-01", "title": "Lease of Unit 4C commenced", "detail": "One year term at PHP 33,000.00 per month, payable on or before the fifth of each month.", "confidence": 98, "sources": ["ev-01"], "flag": null },
+    { "id": "tl-02", "date": "2025-06-06", "title": "Last rental payment received", "detail": "PHP 33,000.00 for the month of June 2025.", "confidence": 96, "sources": ["ev-02"], "flag": null },
+    { "id": "tl-03", "date": "2026-03-02", "title": "Ilagan acknowledged the arrears on Messenger", "detail": "Asked to stay until June while looking for a new place.", "confidence": 92, "sources": ["ev-06"], "flag": null },
+    { "id": "tl-04", "date": "2026-04-15", "title": "Notice to pay and vacate sent", "detail": "Fifteen days from receipt to settle PHP 396,000.00 and to vacate.", "confidence": 99, "sources": ["ev-03"], "flag": null },
+    { "id": "tl-05", "date": "2026-04-23", "title": "Notice received by registered mail", "detail": "Signature reads N. Ilagan. The delivery date digit is ambiguous.", "confidence": 80, "sources": ["ev-04"], "flag": "gap" },
+    { "id": "tl-06", "date": "2026-05-26", "title": "Certification to file action issued", "detail": "Barangay Kapitolyo certified that no settlement was reached after two mediation dates.", "confidence": 97, "sources": ["ev-05"], "flag": null }
+  ],
+  "chronology": [
+    { "id": "ch-01", "text": "On 1 September 2024, plaintiff leased Unit 4C of the Dona Amparo Building in Kapitolyo, Pasig City to defendant at a monthly rent of PHP 33,000.00.", "citations": ["ev-01"] },
+    { "id": "ch-02", "text": "The last rental payment was received on 6 June 2025. Rentals for July 2025 to May 2026, totalling PHP 396,000.00, remain unpaid.", "citations": ["ev-02"] },
+    { "id": "ch-03", "text": "On 15 April 2026, plaintiff served a notice to pay and vacate giving fifteen days from receipt. The registry return card shows delivery in the fourth week of April 2026 with a signature reading N. Ilagan.", "citations": ["ev-03", "ev-04"] },
+    { "id": "ch-04", "text": "The parties appeared before Barangay Kapitolyo on 12 and 19 May 2026 without settlement, and a certification to file action was issued on 26 May 2026.", "citations": ["ev-05"] }
+  ],
+  "exhibits": [
+    { "label": "A", "title": "Contract of Lease dated 1 September 2024", "evidenceId": "ev-01", "offeredFor": "The lease and the terms of possession" },
+    { "label": "B", "title": "Rental ledger to 31 May 2026", "evidenceId": "ev-02", "offeredFor": "The arrears claimed" },
+    { "label": "C", "title": "Notice to pay and vacate dated 15 April 2026", "evidenceId": "ev-03", "offeredFor": "Demand to pay and to vacate" },
+    { "label": "D", "title": "Registry return card", "evidenceId": "ev-04", "offeredFor": "Receipt of the notice by defendant" },
+    { "label": "E", "title": "Certification to file action", "evidenceId": "ev-05", "offeredFor": "Compliance with barangay conciliation" }
+  ],
+  "witnesses": [
+    { "id": "wt-01", "name": "Corazon V. Sarmiento", "role": "Plaintiff, lessor", "appearsIn": ["ev-01", "ev-02", "ev-06"], "status": "confirmed", "note": "Keeps the ledger herself, will identify all exhibits." },
+    { "id": "wt-02", "name": "Perlita G. Bunag", "role": "Building administrator", "appearsIn": ["ev-02"], "status": "confirmed", "note": "Can testify to continued occupancy of Unit 4C." },
+    { "id": "wt-03", "name": "Noel B. Ilagan", "role": "Defendant, lessee", "appearsIn": ["ev-06"], "status": "adverse", "note": "Messenger message acknowledges the arrears." }
+  ],
+  "contradictions": [
+    { "id": "cx-01", "severity": "medium", "claim": "The notice to vacate was received on 23 April 2026.", "against": "The stamp on the registry return card may read 22 April 2026.", "sources": ["ev-04"], "observation": "The fifteen day period and the one year prescriptive period both count from receipt. Fix the date with the post office before pre-trial." }
+  ],
+  "missing": [
+    { "id": "ms-01", "document": "Post office certification on the date of delivery", "why": "The date stamp on the return card is ambiguous between 22 and 23 April 2026.", "blocks": "Receipt of the notice to vacate", "priority": "high", "where": "Pasig Central Post Office, quoting article RR 5527 1180 4 PH" },
+    { "id": "ms-02", "document": "Tax declaration or title for the leased premises", "why": "Establishes plaintiff's right to possess and to lease.", "blocks": null, "priority": "normal", "where": "Client's records" },
+    { "id": "ms-03", "document": "Photographs of the unit as currently occupied", "why": "Supports the allegation of continued possession by defendant.", "blocks": null, "priority": "normal", "where": "Building administrator" }
+  ],
+  "proofMatrix": {
+    "caseType": "Unlawful detainer",
+    "basis": "Elements follow the standard formulation for unlawful detainer under Rule 70. Confirm against current jurisprudence before filing.",
+    "elements": [
+      { "element": "Possession by defendant was initially lawful, by contract or tolerance", "authority": "Rule 70, Section 1", "evidence": ["ev-01"], "status": "supported", "note": "Written lease on file." },
+      { "element": "Possession became illegal upon expiry or violation of the terms", "authority": "Rule 70, Section 1", "evidence": ["ev-02", "ev-01"], "status": "supported", "note": "Twelve months of unpaid rent against a two month default clause." },
+      { "element": "Demand to pay and to vacate was made", "authority": "Rule 70, Section 2", "evidence": ["ev-03"], "status": "supported", "note": "Notice dated 15 April 2026." },
+      { "element": "Receipt of the demand by defendant", "authority": "Rule 70, Section 2", "evidence": ["ev-04"], "status": "partial", "note": "Signature is attributable, the delivery date is not fixed." },
+      { "element": "Action filed within one year from last demand", "authority": "Rule 70, Section 1", "evidence": ["ev-04", "ev-05"], "status": "partial", "note": "Counting depends on the same ambiguous delivery date." },
+      { "element": "Prior referral to barangay conciliation", "authority": "RA 7160, Section 412", "evidence": ["ev-05"], "status": "supported", "note": "Certification to file action issued 26 May 2026." }
+    ]
+  },
+  "claims": [
+    { "claim": "Right to recover possession of Unit 4C", "supporting": ["Lease contract", "Rental ledger", "Notice to vacate", "Barangay certification"], "missing": [], "strength": "strong" },
+    { "claim": "Arrears of PHP 396,000.00", "supporting": ["Rental ledger", "Messenger acknowledgment"], "missing": ["Official receipts for the payments that were made"], "strength": "workable" },
+    { "claim": "Reasonable compensation for continued use after demand", "supporting": ["Lease rate of PHP 33,000.00 per month"], "missing": ["Proof of prevailing rental rate in the area"], "strength": "thin" }
+  ],
+  "binder": [
+    { "witnessId": "wt-01", "purpose": "Establish the lease, the arrears and the demand", "questions": ["Who owns Unit 4C of the Dona Amparo Building?", "I am showing you Exhibit A. What is this document?", "When did you last receive rent from the defendant?", "I am showing you Exhibit C. What did you do with this notice?"], "documents": ["ev-01", "ev-02", "ev-03"] },
+    { "witnessId": "wt-02", "purpose": "Prove continued occupancy", "questions": ["What are your duties as building administrator?", "Who occupies Unit 4C as of today?", "How often do you see the defendant in the building?"], "documents": ["ev-02"] }
+  ],
+  "hearing": {
+    "date": "2026-08-19",
+    "time": "1:30 PM",
+    "court": "MeTC Pasig City, Branch 71",
+    "purpose": "Preliminary conference",
+    "witness": "Corazon V. Sarmiento",
+    "exhibits": ["A", "B", "C", "D", "E"],
+    "issues": [
+      "Whether the notice to vacate was received, and when",
+      "Whether the arrears are correctly computed",
+      "Whether reasonable compensation should follow the contract rate"
+    ],
+    "reminders": [
+      "The delivery date on Exhibit D is still ambiguous. Bring the post office certification if it arrives in time.",
+      "Bring the original lease for comparison."
+    ]
+  }
+}

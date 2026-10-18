@@ -1,0 +1,169 @@
+{
+  "product": {
+    "name": "Ebidensya",
+    "line": "Evidence intake for Philippine litigation teams",
+    "headline": "Your client's evidence, sorted before you open the folder",
+    "subhead": "Upload the screenshots, receipts and scans. Get a timeline, an exhibit list and a proof matrix you can check.",
+    "primaryCta": { "label": "Open the demo case", "href": "/app" },
+    "secondaryCta": { "label": "See how it reads a file", "href": "/how-it-works" }
+  },
+  "sources": [
+    { "label": "Messenger", "note": "Screenshots, Tagalog and Taglish threads" },
+    { "label": "Viber", "note": "Group and one to one threads" },
+    { "label": "GCash and Maya", "note": "Transfer receipts with reference numbers" },
+    { "label": "Bank slips", "note": "Deposit slips, return advices, statements" },
+    { "label": "LBC and PhilPost", "note": "Delivery slips and registry return cards" },
+    { "label": "Barangay records", "note": "Blotter pages, certifications to file action" },
+    { "label": "Scans and PDFs", "note": "Contracts, affidavits, titles, pleadings" },
+    { "label": "Phone photos", "note": "Scenes, damage, injuries, physical stock" }
+  ],
+  "intake": {
+    "caseTitle": "People vs. Ricardo M. Cruz",
+    "pile": [
+      { "count": 45, "label": "Messenger screenshots" },
+      { "count": 18, "label": "receipts" },
+      { "count": 16, "label": "photographs" },
+      { "count": 6, "label": "scanned PDFs" },
+      { "count": 3, "label": "contracts" },
+      { "count": 3, "label": "affidavits" },
+      { "count": 2, "label": "demand letters" },
+      { "count": 1, "label": "police report" }
+    ]
+  },
+  "pillars": [
+    {
+      "id": "sort",
+      "title": "Sorted on upload",
+      "body": "Every file lands in a category with its source, its date and its people already read off the page. Contracts, chats, receipts, photographs, official records.",
+      "detail": "No manual foldering, no renaming."
+    },
+    {
+      "id": "search",
+      "title": "Screenshots become searchable",
+      "body": "Text inside a Messenger capture is extracted, so a search for the amount or the promise finds the thread instead of you opening four hundred images.",
+      "detail": "Filipino, Taglish and English."
+    },
+    {
+      "id": "timeline",
+      "title": "A timeline with sources attached",
+      "body": "Each entry carries the files it came from and a confidence figure. Click any date to see exactly what the app read.",
+      "detail": "Chronology drafts from the same data."
+    },
+    {
+      "id": "matrix",
+      "title": "Proof matrix per cause of action",
+      "body": "Pick the case type and the elements appear beside the evidence you actually have, with the gaps named before you file rather than at trial.",
+      "detail": "BP 22, estafa, collection, ejectment, copyright."
+    }
+  ],
+  "steps": [
+    { "id": "upload", "verb": "Upload", "title": "Drop the whole folder in", "body": "Screenshots, phone photos, scanned contracts, bank PDFs, email exports. The intake reads each file once and records where it came from and when it was captured." },
+    { "id": "quality", "verb": "Quality check", "title": "Bad copies are flagged before anything is read", "body": "Blur, glare, low resolution, cropped pages, rotation and shadow are detected first. You are told which files need a clearer copy instead of finding out in court." },
+    { "id": "classify", "verb": "Classify", "title": "Files sort themselves into evidence categories", "body": "Contracts, receipts, chats, photographs, affidavits and official records, each with the source named. A GCash receipt is filed as a GCash receipt, not as IMG_4471." },
+    { "id": "extract", "verb": "Extract", "title": "Text comes out with a confidence figure per field", "body": "Amounts, dates, reference numbers, names and signatures are extracted as separate fields. Anything below the threshold is left blank and marked for review rather than guessed." },
+    { "id": "timeline", "verb": "Build the timeline", "title": "Dated events, each tied to its files", "body": "The timeline is assembled from what was extracted. Every entry lists its sources and its confidence, so a weak date is visible as a weak date." },
+    { "id": "chronology", "verb": "Draft", "title": "A chronology written from the timeline", "body": "Narrative paragraphs with citations to the evidence behind each sentence. It is a first draft for a statement of facts, not a filing." },
+    { "id": "exhibits", "verb": "Mark exhibits", "title": "Exhibit letters proposed in order", "body": "Each proposed exhibit carries the purpose it would be offered for. Re-letter or reject any of them." },
+    { "id": "witnesses", "verb": "List witnesses", "title": "Names picked up from the documents themselves", "body": "Signatories, affiants, officers and people mentioned in chats, with the files they appear in so you can see why a name was suggested." },
+    { "id": "conflicts", "verb": "Compare", "title": "Statements that do not sit together are flagged", "body": "A denial in a counter-affidavit against an admission in a chat. A payment dated before the contract. The app raises them and stops. You decide whether it matters." },
+    { "id": "gaps", "verb": "Name the gaps", "title": "Documents you do not have yet", "body": "Missing items are listed against the element they would support, with a note on where that document is normally obtained." },
+    { "id": "matrix", "verb": "Check the elements", "title": "Proof matrix for the cause of action", "body": "Elements on the left, your evidence beside them, status on the right. The unsupported rows are the ones to fix before filing." },
+    { "id": "binder", "verb": "Prepare", "title": "Trial binder and hearing view", "body": "Per witness: purpose, proposed questions and the documents to bring. The hearing view holds one setting, its issues, its exhibits and its reminders." }
+  ],
+  "confidenceBands": [
+    { "band": "95 and above", "label": "Read cleanly", "meaning": "Quoted directly, used in the timeline without a warning.", "tone": "verified" },
+    { "band": "80 to 94", "label": "Review recommended", "meaning": "Included and usable, marked so you check the field before you rely on it.", "tone": "review" },
+    { "band": "Below 80", "label": "Not relied upon", "meaning": "Kept in the case file, never quoted as fact, and listed in the review queue with the reason.", "tone": "risk" }
+  ],
+  "safeguards": [
+    { "title": "It says what it cannot read", "body": "An unreadable amount is reported as unreadable. There is no fallback to a plausible figure." },
+    { "title": "The original is never overwritten", "body": "Deskew, contrast and rotation produce a separate enhanced view. The file as uploaded stays untouched." },
+    { "title": "Corrections stay in the record", "body": "When you type in a name the extraction missed, the entry is marked as manually entered, with who entered it and when." },
+    { "title": "Cross-references are offered, not concluded", "body": "If a blurred receipt matches a bank transfer and a chat, all three are shown side by side and the verification is left to you." },
+    { "title": "Every fact traces back", "body": "No timeline entry, chronology sentence or exhibit exists without the files behind it." },
+    { "title": "It does not give legal advice", "body": "No opinion on the merits, no recommendation to file or settle. Organisation and extraction only." }
+  ],
+  "plans": [
+    {
+      "id": "solo",
+      "name": "Solo",
+      "price": 2450,
+      "unit": "per month",
+      "note": "One lawyer, one paralegal seat included",
+      "features": [
+        "Up to 12 active cases",
+        "3,000 pages of extraction each month",
+        "Timeline, chronology, exhibits, witnesses",
+        "Proof matrix for 5 case types",
+        "Email support, next business day"
+      ],
+      "cta": "Start with Solo",
+      "featured": false
+    },
+    {
+      "id": "firm",
+      "name": "Firm",
+      "price": 8900,
+      "unit": "per month",
+      "note": "Up to 10 seats, add seats at PHP 700 each",
+      "features": [
+        "Unlimited active cases",
+        "20,000 pages of extraction each month",
+        "Proof matrix for all supported case types",
+        "Shared review queue and case handover notes",
+        "Audit trail export for every manual correction",
+        "Onboarding session for the whole team"
+      ],
+      "cta": "Start with Firm",
+      "featured": true
+    },
+    {
+      "id": "chambers",
+      "name": "Chambers",
+      "price": null,
+      "unit": "quoted per office",
+      "note": "For larger offices and in-house legal departments",
+      "features": [
+        "Everything in Firm",
+        "Processing kept within a Philippine region",
+        "Single sign on and per-matter access rules",
+        "Retention rules set per client",
+        "Named contact for support"
+      ],
+      "cta": "Request a quote",
+      "featured": false
+    }
+  ],
+  "planNotes": [
+    "Prices are in Philippine pesos and exclude VAT.",
+    "A page is one scanned page or one screenshot.",
+    "Billed monthly, no lock-in period."
+  ],
+  "faq": [
+    {
+      "q": "Does it decide anything about the case?",
+      "a": "No. It sorts files, extracts text, builds a timeline and lays your evidence against the elements of the cause of action you pick. Whether an inconsistency matters, whether to file, and what to argue are yours."
+    },
+    {
+      "q": "What happens with a blurry screenshot?",
+      "a": "It is kept in the case file and marked so that nothing is quoted from it. The reasons are listed as detected, for example motion blur or a resolution of 640 by 480, and you are asked for a clearer copy."
+    },
+    {
+      "q": "Does it read Filipino and Taglish?",
+      "a": "Yes. Threads in Filipino, English and mixed usage are extracted as written, without translation. Quoted text stays in the language of the original."
+    },
+    {
+      "q": "How does this sit with the Data Privacy Act?",
+      "a": "Case files hold personal and sometimes sensitive personal information, so the office remains the personal information controller. On Chambers, processing can be kept within a Philippine region and retention rules are set per client. Review your own data processing agreement before uploading client files."
+    },
+    {
+      "q": "Which causes of action have a proof matrix?",
+      "a": "BP 22, estafa, collection of sum of money, unlawful detainer and forcible entry, and copyright and trademark infringement. Each matrix lists its own basis so you can check the formulation used."
+    },
+    {
+      "q": "Can I correct what it extracted?",
+      "a": "Yes, on any field. The correction is recorded as manually entered with the name of whoever entered it and the time, and it stays in the audit trail."
+    }
+  ],
+  "demoNotice": "Sample case data. Names, dockets and documents are fictional."
+}

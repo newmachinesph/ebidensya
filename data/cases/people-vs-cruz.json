@@ -1,0 +1,763 @@
+{
+  "summary": {
+    "id": "people-vs-cruz",
+    "title": "People vs. Ricardo M. Cruz",
+    "docket": "Crim. Case No. R-QZN-26-04182-CR",
+    "causeOfAction": "Violation of Batas Pambansa Blg. 22",
+    "court": "MeTC Quezon City, Branch 34",
+    "clientRole": "Private complainant",
+    "client": "Elenita R. Villanueva",
+    "adverse": "Ricardo M. Cruz",
+    "lead": "Atty. Marisol Bantayan",
+    "status": "filed",
+    "openedOn": "2026-04-20",
+    "nextHearing": "2026-08-06",
+    "amountInvolved": 100000,
+    "fileCount": 87,
+    "needsReviewCount": 6,
+    "readiness": 78
+  },
+  "evidence": [
+    {
+      "id": "ev-01",
+      "filename": "Loan Agreement - Villanueva Cruz.pdf",
+      "kind": "contract",
+      "source": "Flatbed scan, 300 dpi",
+      "capturedOn": "2026-01-12",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "A",
+      "pages": 3,
+      "sizeKb": 1840,
+      "ocr": {
+        "status": "verified",
+        "confidence": 98,
+        "defects": [],
+        "note": null,
+        "text": "LOAN AGREEMENT\n\nThis Agreement, executed this 12th day of January 2026 at Quezon City, by and between ELENITA R. VILLANUEVA, of legal age, Filipino, with residence at 21 Malumanay St., Teachers Village East, Quezon City (the LENDER), and RICARDO M. CRUZ, of legal age, Filipino, with residence at 8-B Sampaguita Extension, Project 6, Quezon City (the BORROWER).\n\n1. The LENDER agrees to lend the sum of ONE HUNDRED THOUSAND PESOS (PHP 100,000.00), receipt of which is acknowledged by the BORROWER upon transfer.\n2. The BORROWER undertakes to repay the principal in full on or before 30 April 2026.\n3. Interest of two percent (2%) per month shall accrue on any unpaid balance after due date.\n\nSIGNED in the presence of: Maricar S. Delos Reyes, Benigno T. Alcantara",
+        "fields": [
+          { "label": "Date executed", "value": "12 January 2026", "confidence": 99 },
+          { "label": "Principal", "value": "PHP 100,000.00", "confidence": 99 },
+          { "label": "Due date", "value": "30 April 2026", "confidence": 97 },
+          { "label": "Instrumental witnesses", "value": "Maricar S. Delos Reyes; Benigno T. Alcantara", "confidence": 94 }
+        ]
+      },
+      "corroborates": ["ev-02", "ev-04"],
+      "tags": ["loan", "signed", "notarized"]
+    },
+    {
+      "id": "ev-02",
+      "filename": "GCash - transfer receipt 15Jan.png",
+      "kind": "receipt",
+      "source": "GCash app export",
+      "capturedOn": "2026-01-15",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "B",
+      "pages": 1,
+      "sizeKb": 214,
+      "ocr": {
+        "status": "verified",
+        "confidence": 96,
+        "defects": [],
+        "note": null,
+        "text": "GCash\nSent via Express Send\nAmount PHP 100,000.00\nRecipient RICARDO M. C.\nMobile 0917 4xx xx82\nRef. No. 8014 5573 9921\nDate 15 Jan 2026, 4:41 PM\nTotal debited PHP 100,000.00",
+        "fields": [
+          { "label": "Amount", "value": "PHP 100,000.00", "confidence": 99 },
+          { "label": "Reference number", "value": "8014 5573 9921", "confidence": 97 },
+          { "label": "Recipient", "value": "RICARDO M. C.", "confidence": 88 },
+          { "label": "Timestamp", "value": "15 Jan 2026, 4:41 PM", "confidence": 98 }
+        ]
+      },
+      "corroborates": ["ev-01", "ev-04"],
+      "tags": ["gcash", "transfer", "principal"]
+    },
+    {
+      "id": "ev-03",
+      "filename": "BDO check 0123456 - front.jpg",
+      "kind": "financial",
+      "source": "Phone camera",
+      "capturedOn": "2026-02-14",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "C",
+      "pages": 1,
+      "sizeKb": 2210,
+      "photoSeed": "bdo-check-front-scan",
+      "ocr": {
+        "status": "review",
+        "confidence": 84,
+        "defects": ["Flash glare across the amount line"],
+        "note": "Amount in words is partially washed out by glare. Numeric amount and check number read cleanly.",
+        "text": "BANCO DE ORO UNIBANK, INC.\nCubao - P. Tuazon Branch\nCheck No. 0123456\nDate 30 APR 2026\nPay to the order of ELENITA R. VILLANUEVA\nPHP 100,000.00\n[amount in words unreadable]\nAcct. No. 0045 9871 2233\nRICARDO M. CRUZ",
+        "fields": [
+          { "label": "Check number", "value": "0123456", "confidence": 97 },
+          { "label": "Date on check", "value": "30 April 2026", "confidence": 93 },
+          { "label": "Amount in figures", "value": "PHP 100,000.00", "confidence": 91 },
+          { "label": "Amount in words", "value": null, "confidence": 38 },
+          { "label": "Drawer signature", "value": "Present, not compared", "confidence": 61 }
+        ]
+      },
+      "corroborates": ["ev-05", "ev-02"],
+      "tags": ["check", "bp22", "needs-original"]
+    },
+    {
+      "id": "ev-04",
+      "filename": "Messenger thread - Cruz - 01Feb.png",
+      "kind": "chat",
+      "source": "Messenger screenshot",
+      "capturedOn": "2026-02-01",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "G",
+      "pages": 1,
+      "sizeKb": 388,
+      "ocr": {
+        "status": "verified",
+        "confidence": 95,
+        "defects": [],
+        "note": null,
+        "text": "Feb 1\n\nRicardo Cruz\nMa'am pasensya na po, natagalan ang collection namin.\n\nRicardo Cruz\nYung 100k po, babayaran ko in full. Promise po, sa Friday.\n\nElenita Villanueva\nSige, Friday. Nakalagay naman sa kasulatan ang April 30.\n\nRicardo Cruz\nOpo. Bibigyan ko po kayo ng check para sigurado.",
+        "fields": [
+          { "label": "Thread date", "value": "1 February 2026", "confidence": 96 },
+          { "label": "Acknowledged amount", "value": "PHP 100,000.00", "confidence": 94 },
+          { "label": "Sender display name", "value": "Ricardo Cruz", "confidence": 97 }
+        ]
+      },
+      "corroborates": ["ev-01", "ev-03"],
+      "tags": ["admission", "messenger", "tagalog"]
+    },
+    {
+      "id": "ev-05",
+      "filename": "BDO return slip - DAIF.pdf",
+      "kind": "financial",
+      "source": "Bank counter copy, scanned",
+      "capturedOn": "2026-03-08",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "D",
+      "pages": 1,
+      "sizeKb": 640,
+      "ocr": {
+        "status": "verified",
+        "confidence": 97,
+        "defects": [],
+        "note": null,
+        "text": "BANCO DE ORO UNIBANK, INC.\nCHECK RETURN ADVICE\nCheck No. 0123456   Amount PHP 100,000.00\nDrawn against RICARDO M. CRUZ, Acct. 0045 9871 2233\nPresented 05 March 2026\nReturned 08 March 2026\nReason: DRAWN AGAINST INSUFFICIENT FUNDS",
+        "fields": [
+          { "label": "Reason for dishonor", "value": "Drawn against insufficient funds", "confidence": 99 },
+          { "label": "Date returned", "value": "8 March 2026", "confidence": 98 },
+          { "label": "Check number", "value": "0123456", "confidence": 99 }
+        ]
+      },
+      "corroborates": ["ev-03"],
+      "tags": ["dishonor", "bp22", "bank"]
+    },
+    {
+      "id": "ev-06",
+      "filename": "Demand letter 10Mar2026.pdf",
+      "kind": "official",
+      "source": "Firm outgoing file",
+      "capturedOn": "2026-03-10",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "E",
+      "pages": 2,
+      "sizeKb": 512,
+      "ocr": {
+        "status": "verified",
+        "confidence": 99,
+        "defects": [],
+        "note": null,
+        "text": "10 March 2026\n\nMR. RICARDO M. CRUZ\n8-B Sampaguita Extension, Project 6, Quezon City\n\nRe: NOTICE OF DISHONOR AND FINAL DEMAND\n\nDear Mr. Cruz,\n\nWe write for and in behalf of Ms. Elenita R. Villanueva. BDO Check No. 0123456 dated 30 April 2026 in the amount of PHP 100,000.00 was returned on 8 March 2026 for insufficiency of funds.\n\nDemand is hereby made for payment of the full amount in cash within five (5) banking days from receipt of this letter.",
+        "fields": [
+          { "label": "Date of letter", "value": "10 March 2026", "confidence": 99 },
+          { "label": "Period given", "value": "5 banking days from receipt", "confidence": 98 },
+          { "label": "Amount demanded", "value": "PHP 100,000.00", "confidence": 99 }
+        ]
+      },
+      "corroborates": ["ev-07"],
+      "tags": ["demand", "notice-of-dishonor"]
+    },
+    {
+      "id": "ev-07",
+      "filename": "LBC proof of delivery 18Mar.jpg",
+      "kind": "official",
+      "source": "Phone camera",
+      "capturedOn": "2026-03-18",
+      "uploadedOn": "2026-04-21",
+      "exhibit": "F",
+      "pages": 1,
+      "sizeKb": 1490,
+      "photoSeed": "courier-delivery-slip-paper",
+      "ocr": {
+        "status": "unreadable",
+        "confidence": 41,
+        "defects": ["Motion blur", "Resolution 640 x 480", "Signature block cropped at the edge"],
+        "note": "The recipient signature and printed name cannot be read. Do not quote a receiving party from this file until a clearer copy is obtained.",
+        "text": "LBC EXPRESS\nTracking No. 3391 [unreadable] 04\nDelivered 18 MAR 2026\nReceived by: [unreadable]\nRelationship to addressee: [unreadable]",
+        "fields": [
+          { "label": "Tracking number", "value": null, "confidence": 44 },
+          { "label": "Date delivered", "value": "18 March 2026", "confidence": 79 },
+          { "label": "Received by", "value": null, "confidence": 22 },
+          { "label": "Relationship to addressee", "value": null, "confidence": 18 }
+        ]
+      },
+      "corroborates": ["ev-06"],
+      "tags": ["service", "critical-gap", "reshoot"]
+    },
+    {
+      "id": "ev-08",
+      "filename": "Counter-affidavit of R. Cruz.pdf",
+      "kind": "affidavit",
+      "source": "OCP Quezon City records",
+      "capturedOn": "2026-05-14",
+      "uploadedOn": "2026-05-16",
+      "exhibit": null,
+      "pages": 4,
+      "sizeKb": 980,
+      "ocr": {
+        "status": "verified",
+        "confidence": 96,
+        "defects": [],
+        "note": null,
+        "text": "COUNTER-AFFIDAVIT\n\nI, RICARDO M. CRUZ, of legal age, after having been duly sworn, depose and state:\n\n3. I never borrowed any amount from the complainant. The document she presents was signed in blank for an entirely different transaction.\n\n5. I did not receive any notice of dishonor. I was in Cebu for the whole month of March 2026.",
+        "fields": [
+          { "label": "Affiant", "value": "Ricardo M. Cruz", "confidence": 99 },
+          { "label": "Date subscribed", "value": "14 May 2026", "confidence": 95 },
+          { "label": "Denial", "value": "Denies the loan and denies receipt of notice", "confidence": 93 }
+        ]
+      },
+      "corroborates": [],
+      "tags": ["adverse", "denial"]
+    },
+    {
+      "id": "ev-09",
+      "filename": "Viber - Delos Reyes - 03Feb.png",
+      "kind": "chat",
+      "source": "Viber screenshot",
+      "capturedOn": "2026-02-03",
+      "uploadedOn": "2026-04-22",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 296,
+      "ocr": {
+        "status": "review",
+        "confidence": 81,
+        "defects": ["Screenshot recompressed, text edges soft"],
+        "note": "Timestamps at the top of the thread are legible but the year is not shown by Viber. Year inferred from file metadata, please confirm.",
+        "text": "Maricar Delos Reyes\nNasa opisina ako nung pumirma sila ni Ricardo. Ako po ang isa sa saksi.\n\nElenita Villanueva\nSalamat Maricar. Baka kailanganin ka namin.\n\nMaricar Delos Reyes\nOk lang po. Andito lang ako sa Novaliches.",
+        "fields": [
+          { "label": "Thread date", "value": "3 February (year inferred)", "confidence": 62 },
+          { "label": "Statement", "value": "Confirms presence at signing", "confidence": 88 }
+        ]
+      },
+      "corroborates": ["ev-01"],
+      "tags": ["witness", "viber"]
+    },
+    {
+      "id": "ev-10",
+      "filename": "Sinumpaang Salaysay - E. Villanueva.pdf",
+      "kind": "affidavit",
+      "source": "Firm drafting file",
+      "capturedOn": "2026-04-18",
+      "uploadedOn": "2026-04-20",
+      "exhibit": "H",
+      "pages": 3,
+      "sizeKb": 720,
+      "ocr": {
+        "status": "verified",
+        "confidence": 98,
+        "defects": [],
+        "note": null,
+        "text": "SINUMPAANG SALAYSAY\n\nAko si ELENITA R. VILLANUEVA, nasa hustong gulang, Pilipino, at naninirahan sa Lungsod Quezon, matapos manumpa ayon sa batas ay malayang nagsasaad:\n\n2. Noong ika-12 ng Enero 2026, kami ni Ricardo M. Cruz ay pumirma ng kasunduan sa pautang na PHP 100,000.00.\n4. Noong ika-15 ng Enero 2026, ipinadala ko ang halaga sa pamamagitan ng GCash.",
+        "fields": [
+          { "label": "Affiant", "value": "Elenita R. Villanueva", "confidence": 99 },
+          { "label": "Language", "value": "Filipino", "confidence": 99 },
+          { "label": "Date subscribed", "value": "18 April 2026", "confidence": 97 }
+        ]
+      },
+      "corroborates": ["ev-01", "ev-02"],
+      "tags": ["client", "affidavit"]
+    },
+    {
+      "id": "ev-11",
+      "filename": "Barangay blotter - Brgy Sacred Heart.jpg",
+      "kind": "official",
+      "source": "Phone camera",
+      "capturedOn": "2026-03-22",
+      "uploadedOn": "2026-04-22",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 1980,
+      "photoSeed": "barangay-logbook-page-handwriting",
+      "ocr": {
+        "status": "review",
+        "confidence": 73,
+        "defects": ["Handwritten entry", "Page curl on the right margin"],
+        "note": "Handwriting recognised at low certainty. Entry number and the last line of the narration need a human read.",
+        "text": "BLOTTER ENTRY NO. 20[?]\n22 March 2026\nReporting party: Elenita R. Villanueva\nNature: Non-payment of obligation\nNarration: Ang nasabing tseke ay tumalbog. Hindi pa rin nagbabayad si Mr. Cruz [remainder unclear]",
+        "fields": [
+          { "label": "Entry number", "value": null, "confidence": 34 },
+          { "label": "Date of entry", "value": "22 March 2026", "confidence": 88 },
+          { "label": "Reporting party", "value": "Elenita R. Villanueva", "confidence": 91 }
+        ]
+      },
+      "corroborates": ["ev-05"],
+      "tags": ["barangay", "handwritten"]
+    },
+    {
+      "id": "ev-12",
+      "filename": "Email - Cruz to Villanueva 22Feb.eml",
+      "kind": "email",
+      "source": "Gmail export",
+      "capturedOn": "2026-02-22",
+      "uploadedOn": "2026-04-23",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 62,
+      "ocr": {
+        "status": "verified",
+        "confidence": 99,
+        "defects": [],
+        "note": null,
+        "text": "From: ricardo.cruz@example.com\nTo: elenita.villanueva@example.com\nDate: Sun, 22 Feb 2026 21:04:11 +0800\nSubject: Re: Payment\n\nMa'am, na-issue ko na po yung check, BDO 0123456, dated April 30. Wag na po sana kayong mag-file ng kaso.",
+        "fields": [
+          { "label": "Sender address", "value": "ricardo.cruz@example.com", "confidence": 99 },
+          { "label": "Check referenced", "value": "BDO 0123456", "confidence": 98 },
+          { "label": "Sent", "value": "22 Feb 2026, 9:04 PM", "confidence": 99 }
+        ]
+      },
+      "corroborates": ["ev-03", "ev-04"],
+      "tags": ["admission", "email"]
+    },
+    {
+      "id": "ev-13",
+      "filename": "Photo - meeting at Cafe Adriatico.jpg",
+      "kind": "photograph",
+      "source": "Phone camera",
+      "capturedOn": "2026-01-12",
+      "uploadedOn": "2026-04-23",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 3120,
+      "photoSeed": "manila-cafe-table-documents-meeting",
+      "ocr": {
+        "status": "manual",
+        "confidence": 0,
+        "defects": [],
+        "note": "No text detected. Filed as a photograph. Caption and identification were entered by Atty. Bantayan on 23 April 2026.",
+        "text": null,
+        "fields": [
+          { "label": "Caption (entered manually)", "value": "Signing of the loan agreement, Cafe Adriatico, Malate", "confidence": 100 },
+          { "label": "Persons identified", "value": "E. Villanueva, R. Cruz, M. Delos Reyes", "confidence": 100 }
+        ]
+      },
+      "corroborates": ["ev-01", "ev-09"],
+      "tags": ["photo", "manually-captioned"]
+    },
+    {
+      "id": "ev-14",
+      "filename": "Registry return card - reverse.jpg",
+      "kind": "official",
+      "source": "Phone camera",
+      "capturedOn": "2026-03-26",
+      "uploadedOn": "2026-04-24",
+      "exhibit": null,
+      "pages": 1,
+      "sizeKb": 890,
+      "photoSeed": "registry-return-card-postal",
+      "ocr": {
+        "status": "review",
+        "confidence": 78,
+        "defects": ["Low contrast, carbon copy", "Bottom third missing from the frame"],
+        "note": "The card is cut off below the signature line. Re-shoot the full card before this is offered.",
+        "text": "REGISTRY RETURN CARD\nRegistered Article No. RR 4419 8827 3 PH\nAddressee: RICARDO M. CRUZ\nDate of delivery: 2[?] March 2026\nSignature of addressee or agent: [cut off]",
+        "fields": [
+          { "label": "Registered article number", "value": "RR 4419 8827 3 PH", "confidence": 85 },
+          { "label": "Date of delivery", "value": null, "confidence": 47 },
+          { "label": "Signature", "value": null, "confidence": 12 }
+        ]
+      },
+      "corroborates": ["ev-06", "ev-07"],
+      "tags": ["service", "reshoot"]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "date": "2026-01-12",
+      "title": "Loan agreement executed",
+      "detail": "Villanueva and Cruz signed a written loan of PHP 100,000.00 payable on or before 30 April 2026, with two instrumental witnesses named on the last page.",
+      "confidence": 98,
+      "sources": ["ev-01", "ev-13"],
+      "flag": null
+    },
+    {
+      "id": "tl-02",
+      "date": "2026-01-15",
+      "title": "PHP 100,000.00 transferred by GCash",
+      "detail": "Express Send to a number ending 82, reference 8014 5573 9921, timestamped 4:41 PM.",
+      "confidence": 96,
+      "sources": ["ev-02"],
+      "flag": null
+    },
+    {
+      "id": "tl-03",
+      "date": "2026-02-01",
+      "title": "Cruz acknowledged the obligation on Messenger",
+      "detail": "\"Yung 100k po, babayaran ko in full. Promise po, sa Friday.\" The same thread mentions issuing a check.",
+      "confidence": 95,
+      "sources": ["ev-04"],
+      "flag": null
+    },
+    {
+      "id": "tl-04",
+      "date": "2026-02-14",
+      "title": "BDO check no. 0123456 issued",
+      "detail": "Postdated to 30 April 2026 for PHP 100,000.00. The amount in words could not be read from the photograph on file.",
+      "confidence": 84,
+      "sources": ["ev-03", "ev-12"],
+      "flag": null
+    },
+    {
+      "id": "tl-05",
+      "date": "2026-03-05",
+      "title": "Check deposited for collection",
+      "detail": "Presented at BDO Cubao, P. Tuazon branch, before the date written on the face of the check.",
+      "confidence": 92,
+      "sources": ["ev-05"],
+      "flag": "contradiction"
+    },
+    {
+      "id": "tl-06",
+      "date": "2026-03-08",
+      "title": "Check dishonored for insufficient funds",
+      "detail": "Return advice states DRAWN AGAINST INSUFFICIENT FUNDS.",
+      "confidence": 97,
+      "sources": ["ev-05"],
+      "flag": null
+    },
+    {
+      "id": "tl-07",
+      "date": "2026-03-10",
+      "title": "Notice of dishonor and final demand sent",
+      "detail": "Five banking days from receipt were given to pay in cash.",
+      "confidence": 99,
+      "sources": ["ev-06"],
+      "flag": null
+    },
+    {
+      "id": "tl-08",
+      "date": "2026-03-18",
+      "title": "Courier records delivery, recipient unreadable",
+      "detail": "The delivery slip shows a date but the receiving name and signature cannot be read from the file on record.",
+      "confidence": 41,
+      "sources": ["ev-07", "ev-14"],
+      "flag": "gap"
+    },
+    {
+      "id": "tl-09",
+      "date": "2026-03-22",
+      "title": "Barangay blotter entry made",
+      "detail": "Villanueva reported non-payment at Barangay Sacred Heart. The entry number could not be read.",
+      "confidence": 73,
+      "sources": ["ev-11"],
+      "flag": null
+    },
+    {
+      "id": "tl-10",
+      "date": "2026-04-02",
+      "title": "Five banking days lapsed without payment",
+      "detail": "No payment record appears in any uploaded file after this date.",
+      "confidence": 88,
+      "sources": ["ev-06"],
+      "flag": null
+    },
+    {
+      "id": "tl-11",
+      "date": "2026-05-14",
+      "title": "Cruz filed a counter-affidavit denying the loan",
+      "detail": "Denies borrowing at all and claims he was in Cebu for the whole of March 2026.",
+      "confidence": 96,
+      "sources": ["ev-08"],
+      "flag": "contradiction"
+    }
+  ],
+  "chronology": [
+    {
+      "id": "ch-01",
+      "text": "On 12 January 2026, complainant Elenita R. Villanueva and respondent Ricardo M. Cruz executed a written Loan Agreement in Quezon City, under which Villanueva lent Cruz the sum of PHP 100,000.00 payable on or before 30 April 2026.",
+      "citations": ["ev-01", "ev-13"]
+    },
+    {
+      "id": "ch-02",
+      "text": "On 15 January 2026, Villanueva transferred the full principal through GCash under reference number 8014 5573 9921, addressed to a mobile number ending in 82.",
+      "citations": ["ev-02"]
+    },
+    {
+      "id": "ch-03",
+      "text": "On 1 February 2026, in a Messenger exchange, Cruz acknowledged the obligation, committed to pay the whole amount, and stated that he would issue a check.",
+      "citations": ["ev-04", "ev-12"]
+    },
+    {
+      "id": "ch-04",
+      "text": "On or about 14 February 2026, Cruz issued BDO Check No. 0123456 for PHP 100,000.00 bearing the date 30 April 2026. The check was deposited on 5 March 2026 and returned on 8 March 2026 with the notation DRAWN AGAINST INSUFFICIENT FUNDS.",
+      "citations": ["ev-03", "ev-05"]
+    },
+    {
+      "id": "ch-05",
+      "text": "On 10 March 2026, counsel for Villanueva served a written notice of dishonor and final demand giving five banking days from receipt within which to pay in cash. Courier records indicate delivery on 18 March 2026, although the receiving party cannot be identified from the copy on file.",
+      "citations": ["ev-06", "ev-07"]
+    },
+    {
+      "id": "ch-06",
+      "text": "The period lapsed on 2 April 2026 without payment. No record of any payment appears in the case file to date.",
+      "citations": ["ev-06"]
+    }
+  ],
+  "exhibits": [
+    { "label": "A", "title": "Loan Agreement dated 12 January 2026", "evidenceId": "ev-01", "offeredFor": "The existence and terms of the obligation" },
+    { "label": "B", "title": "GCash transfer receipt dated 15 January 2026", "evidenceId": "ev-02", "offeredFor": "Delivery of the principal to respondent" },
+    { "label": "C", "title": "BDO Check No. 0123456", "evidenceId": "ev-03", "offeredFor": "Issuance of the check by respondent" },
+    { "label": "D", "title": "BDO check return advice dated 8 March 2026", "evidenceId": "ev-05", "offeredFor": "Dishonor for insufficiency of funds" },
+    { "label": "E", "title": "Notice of dishonor and final demand dated 10 March 2026", "evidenceId": "ev-06", "offeredFor": "Written notice of dishonor" },
+    { "label": "F", "title": "LBC proof of delivery dated 18 March 2026", "evidenceId": "ev-07", "offeredFor": "Actual receipt of the notice by respondent" },
+    { "label": "G", "title": "Messenger thread dated 1 February 2026", "evidenceId": "ev-04", "offeredFor": "Admission of the obligation" },
+    { "label": "H", "title": "Sinumpaang Salaysay of Elenita R. Villanueva", "evidenceId": "ev-10", "offeredFor": "Complainant's direct testimony" }
+  ],
+  "witnesses": [
+    {
+      "id": "wt-01",
+      "name": "Elenita R. Villanueva",
+      "role": "Complainant, lender",
+      "appearsIn": ["ev-01", "ev-02", "ev-10", "ev-11"],
+      "status": "confirmed",
+      "note": "Will identify the agreement, the transfer and the check."
+    },
+    {
+      "id": "wt-02",
+      "name": "Maricar S. Delos Reyes",
+      "role": "Instrumental witness to the signing",
+      "appearsIn": ["ev-01", "ev-09", "ev-13"],
+      "status": "confirmed",
+      "note": "Confirmed availability over Viber. Based in Novaliches, needs a subpoena for the August setting."
+    },
+    {
+      "id": "wt-03",
+      "name": "Benigno T. Alcantara",
+      "role": "Instrumental witness to the signing",
+      "appearsIn": ["ev-01"],
+      "status": "to-contact",
+      "note": "Named on the last page of the agreement only. No contact number in any uploaded file."
+    },
+    {
+      "id": "wt-04",
+      "name": "Aurora L. Mendiola",
+      "role": "BDO branch operations officer",
+      "appearsIn": ["ev-05"],
+      "status": "to-contact",
+      "note": "Signed the return advice. Needed to identify the bank record and the reason for dishonor."
+    },
+    {
+      "id": "wt-05",
+      "name": "Ricardo M. Cruz",
+      "role": "Respondent",
+      "appearsIn": ["ev-04", "ev-08", "ev-12"],
+      "status": "adverse",
+      "note": "His own Messenger and email messages contradict paragraph 3 of his counter-affidavit."
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "cx-01",
+      "severity": "high",
+      "claim": "\"I never borrowed any amount from the complainant.\" Counter-affidavit, paragraph 3.",
+      "against": "\"Yung 100k po, babayaran ko in full. Promise po, sa Friday.\" Messenger, 1 February 2026.",
+      "sources": ["ev-08", "ev-04", "ev-12"],
+      "observation": "The denial of any borrowing sits against two separate written acknowledgments from accounts bearing his name."
+    },
+    {
+      "id": "cx-02",
+      "severity": "medium",
+      "claim": "The check on file is dated 30 April 2026.",
+      "against": "The return advice states the check was presented on 5 March 2026.",
+      "sources": ["ev-03", "ev-05"],
+      "observation": "Presentment appears to precede the date written on the face of the check. This may be intended, but it is worth a decision before the pre-trial."
+    },
+    {
+      "id": "cx-03",
+      "severity": "medium",
+      "claim": "\"I did not receive any notice of dishonor. I was in Cebu for the whole month of March 2026.\"",
+      "against": "Courier record shows delivery to the Project 6 address on 18 March 2026.",
+      "sources": ["ev-08", "ev-07"],
+      "observation": "The delivery record does not name who received it, so this conflict cannot be resolved from the files currently uploaded."
+    }
+  ],
+  "missing": [
+    {
+      "id": "ms-01",
+      "document": "Legible proof that respondent personally received the notice of dishonor",
+      "why": "The courier slip and the registry return card on file are both unreadable at the signature block.",
+      "blocks": "Receipt of written notice of dishonor",
+      "priority": "critical",
+      "where": "LBC branch copy, or the Philippine Post registry return card original"
+    },
+    {
+      "id": "ms-02",
+      "document": "Original BDO check no. 0123456",
+      "why": "Only a photograph with glare across the amount in words is on file.",
+      "blocks": "Issuance of the check",
+      "priority": "critical",
+      "where": "Client's custody after the return"
+    },
+    {
+      "id": "ms-03",
+      "document": "Bank certification on the status of account 0045 9871 2233",
+      "why": "Corroborates insufficiency of funds independently of the return slip.",
+      "blocks": null,
+      "priority": "high",
+      "where": "BDO Cubao P. Tuazon branch, on request with an authorization letter"
+    },
+    {
+      "id": "ms-04",
+      "document": "Certified true copy of the barangay blotter entry",
+      "why": "The photographed page is handwritten and the entry number could not be read.",
+      "blocks": null,
+      "priority": "normal",
+      "where": "Barangay Sacred Heart, Quezon City"
+    },
+    {
+      "id": "ms-05",
+      "document": "Contact details for Benigno T. Alcantara",
+      "why": "He is named as an instrumental witness but appears in no other file.",
+      "blocks": null,
+      "priority": "normal",
+      "where": "Ask the client, or check the notarial register of the notary public"
+    }
+  ],
+  "proofMatrix": {
+    "caseType": "Violation of Batas Pambansa Blg. 22",
+    "basis": "Elements listed here follow the standard four-element formulation used in BP 22 prosecutions. Confirm against current jurisprudence before filing.",
+    "elements": [
+      {
+        "element": "Making, drawing and issuance of a check to apply on account or for value",
+        "authority": "BP 22, Section 1",
+        "evidence": ["ev-03", "ev-12", "ev-01"],
+        "status": "partial",
+        "note": "The check photograph is readable except for the amount in words. The original is still with the client."
+      },
+      {
+        "element": "Knowledge by the drawer of insufficiency of funds at the time of issue",
+        "authority": "BP 22, Section 2 presumption",
+        "evidence": ["ev-05", "ev-06"],
+        "status": "partial",
+        "note": "The presumption depends on notice of dishonor being received. That link is the weakest point in this file."
+      },
+      {
+        "element": "Dishonor by the drawee bank for insufficiency of funds",
+        "authority": "BP 22, Section 1",
+        "evidence": ["ev-05"],
+        "status": "supported",
+        "note": "Return advice states the reason on its face."
+      },
+      {
+        "element": "Written notice of dishonor given to the drawer",
+        "authority": "BP 22, Section 2",
+        "evidence": ["ev-06"],
+        "status": "supported",
+        "note": "Letter dated 10 March 2026 with a five banking day period."
+      },
+      {
+        "element": "Actual receipt of the written notice by the drawer",
+        "authority": "BP 22, Section 2",
+        "evidence": ["ev-07", "ev-14"],
+        "status": "unsupported",
+        "note": "Neither the courier slip nor the registry return card identifies who received the letter. Obtain a legible copy before pre-trial."
+      },
+      {
+        "element": "Failure to pay within five banking days from receipt of notice",
+        "authority": "BP 22, Section 2",
+        "evidence": ["ev-06", "ev-10"],
+        "status": "partial",
+        "note": "Non-payment rests on the complainant's own statement. The five day period cannot be counted until receipt is fixed."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "The loan of PHP 100,000.00 exists and was delivered",
+      "supporting": ["Written agreement", "GCash transfer with reference number", "Messenger admission", "Email admission"],
+      "missing": [],
+      "strength": "strong"
+    },
+    {
+      "claim": "The check was issued by respondent and dishonored",
+      "supporting": ["Check photograph", "Bank return advice", "Email referencing the check number"],
+      "missing": ["Original check", "Bank certification"],
+      "strength": "workable"
+    },
+    {
+      "claim": "Respondent received the notice of dishonor",
+      "supporting": ["Courier slip showing a delivery date"],
+      "missing": ["Legible recipient name and signature", "Registry return card original", "Courier branch certification"],
+      "strength": "thin"
+    },
+    {
+      "claim": "Civil liability for interest at 2% per month after due date",
+      "supporting": ["Clause 3 of the loan agreement"],
+      "missing": ["Computation as of filing date", "Proof of demand for interest"],
+      "strength": "workable"
+    }
+  ],
+  "binder": [
+    {
+      "witnessId": "wt-01",
+      "purpose": "Establish the loan, the transfer, the check and the demand",
+      "questions": [
+        "Do you know the respondent Ricardo M. Cruz, and how did you come to know him?",
+        "I am showing you a document marked Exhibit A. What is this document?",
+        "Whose signatures appear on the last page of Exhibit A?",
+        "After signing, what did you do with the amount of PHP 100,000.00?",
+        "I am showing you Exhibit B. What does this record show?",
+        "What happened when you deposited the check marked Exhibit C?",
+        "What did you do after the check was returned?"
+      ],
+      "documents": ["ev-01", "ev-02", "ev-03", "ev-05", "ev-06"]
+    },
+    {
+      "witnessId": "wt-02",
+      "purpose": "Corroborate the execution of the loan agreement",
+      "questions": [
+        "Where were you on 12 January 2026?",
+        "Who else was present at that time?",
+        "I am showing you Exhibit A. Do you recognise the signature above your printed name?",
+        "What did you see the parties do before they signed?"
+      ],
+      "documents": ["ev-01", "ev-13"]
+    },
+    {
+      "witnessId": "wt-04",
+      "purpose": "Identify the bank record of dishonor",
+      "questions": [
+        "What is your position at Banco de Oro and how long have you held it?",
+        "I am showing you Exhibit D. Do you recognise this document?",
+        "What does the notation on the lower portion of Exhibit D mean?",
+        "What is the bank's practice when a check is returned for that reason?"
+      ],
+      "documents": ["ev-05"]
+    }
+  ],
+  "hearing": {
+    "date": "2026-08-06",
+    "time": "8:30 AM",
+    "court": "MeTC Quezon City, Branch 34",
+    "purpose": "Pre-trial",
+    "witness": "Elenita R. Villanueva",
+    "exhibits": ["A", "B", "C", "D", "E", "G"],
+    "issues": [
+      "Whether the check was issued for value",
+      "Whether respondent received the written notice of dishonor",
+      "Whether civil liability includes stipulated interest"
+    ],
+    "reminders": [
+      "Exhibit F is not yet reliable. Do not offer it until the courier copy is replaced.",
+      "Bring the original check for comparison with Exhibit C.",
+      "Subpoena for Maricar S. Delos Reyes still needs to be filed."
+    ]
+  }
+}
